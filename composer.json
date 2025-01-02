@@ -1,0 +1,32 @@
+{
+    "name": "tervis/algorithms-modulus11",
+    "description": "Modulus11 algorithm implementation for PHP",
+    "type": "library",
+
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tervis\\Algorithms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tervis\\Algorithms\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mika Tervonen",
+            "email": "mtervonen80@gmail.com"
+        }
+    ],
+    "scripts": {
+        "tests": "./vendor/bin/phpunit"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
